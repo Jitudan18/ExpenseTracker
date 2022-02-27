@@ -84,8 +84,6 @@ app.put("/expenses",expenseController.updateExpense)
 app.delete("/expenses/:expenseId",expenseController.deleteExpense)
 
 //Vendor
-
-//User Expense
 app.post("/vendors",vendorController.addVendor)
 app.get("/vendors",vendorController.getAllVendor)
 app.put("/vendors",vendorController.updateVendor)
